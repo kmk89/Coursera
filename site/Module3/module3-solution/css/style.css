@@ -1,0 +1,74 @@
+body{
+    background-color: cornsilk;
+}
+
+#header-nav {
+    background-color:  rgb(197, 163, 111);
+    border-radius: 0;
+    border: 0;
+}
+.navbar-brand {
+    padding-top: 25px;
+}
+
+.navbar-brand h1{
+    color: #2f22eb;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+#Chicken, #Beef, #Sushi {
+    background-color: rgb(209, 188, 157);
+    margin-bottom: 25px;
+    margin-top: 15px;
+    border: 2px solid black;
+}
+
+.section-heading {
+    text-align: center;
+    margin: 5px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#nav-list {
+    margin: 10px;
+}
+#nav-list a {
+    color: #2f22eb;
+    text-align: center;
+}
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+}
+@media (min-width: 1200px){
+    
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+
+
+
+}
+
+@media (max-width: 767px){
+    #collapsable-nav a {
+        font-size: 1.2em;
+    }
+    #collapsable-nav a span {
+        font-size: 1em;
+        margin-right: 5px;
+    }
+}
+
+@media (max-width: 479px) {
+  
+}
